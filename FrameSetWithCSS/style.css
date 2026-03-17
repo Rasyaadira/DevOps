@@ -1,0 +1,17 @@
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(118, 20, 20);
+}
+
+body {
+    background-color: #ccdccc;
+    text-align: 10px;
+}

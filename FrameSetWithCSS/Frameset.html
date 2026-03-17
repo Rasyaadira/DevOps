@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>frameset</title>
+  </head>
+  <frameset rows="8.5%, *, 5%"> <!-- Buat bagi halaman nya jadi 3 bagian, bagian atas 8.5%, bagian tengah 80% dan bagian bawah 5%-->
+    <frame src="Home.html" name="frame1"> <!-- Buat bagian atas nya, dan buat source nya ke Home.html-->
+    <frameset cols="8%, *"> <!-- Buat bagi bagian tengah nya jadi 2 bagian, bagian kiri 8% dan bagian kanan sisanya-->
+        <frame src="SideBar.html" name="sidebar"> <!-- Buat bagian kiri nya, dan buat source nya ke SideBar.html-->
+        <frame src="Page/index.html" name="content"> <!-- Buat bagian kanan nya, dan buat source nya ke index.html-->
+    </frameset>
+     <frame src="footer.html" name="footer"></frame> <!-- Buat bagian bawah nya, dan buat source nya ke footer.html-->
+  </frameset>
+  <body>
+  </body>
+</html>
